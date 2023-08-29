@@ -1,0 +1,98 @@
+BODY{
+	BACKGROUND-COLOR:#CCD1D1;
+	margin-top: 50PX;
+	margin-left: 50PX;
+	margin-right: 50PX;
+}
+
+.head1{
+	FONT-SIZE: 50PX;
+	FONT-WEIGHT: BOLD;
+	COLOR: #5B2C6F; 
+	FONT-FAMILY: "COMIC SANS MS";
+	TEXT-SHADOW: 0PX 1PX 0PX #A9A9A9, 0PX 2PX 0PX #A4A4A4, 0PX 3PX 0PX #A1A1A1, 0PX 4PX 0PX #999999, 0PX 5PX 0PX #949494;
+}
+
+#TABLE{
+	FONT-FAMILY: GEORGIA;
+	BORDER-COLLAPSE: COLLAPSE;
+	border: none;
+	WIDTH: 75vw;
+	TEXT-ALIGN:CENTER;
+	margin: 2%;
+	box-shadow: 7px 7px 25px #101820;
+}
+
+#TABLE TD, #TABLE TH{
+	PADDING:10PX;
+	HEIGHT: 60px;
+}
+
+#TABLE TR:NTH-CHILD(EVEN){
+	BACKGROUND-COLOR: #C39BD3;
+	COLOR:black;
+}
+
+#TABLE TR:NTH-CHILD(ODD){
+	BACKGROUND-COLOR: #D2B4DE;
+	COLOR:black;
+}
+
+#TABLE TR:HOVER{
+	BACKGROUND-COLOR: #A569BD;
+	COLOR:#D5D8DC;
+}
+
+#TABLE TH{
+	BACKGROUND-COLOR:#4A235A;
+	COLOR:#D5D8DC;
+	FONT-WEIGHT:BOLD;
+}
+
+#CONTACT{
+	COLOR:#101820;
+	FONT-FAMILY: ARIAL;
+	FONT-SIZE:15PX;
+	FONT-WEIGHT:BOLD;
+}
+
+#DETAIL{
+	BACKGROUND-COLOR:#4A235A;
+	FONT-FAMILY:ARIAL;
+	BOX-SHADOW: 14PX 14PX 30PX #2C3335;
+	BORDER-RADIUS: 15PX 15PX 15PX 15PX;
+	COLOR:#CCD1D1;
+}
+
+.head2{
+	FONT-WEIGHT: BOLD;
+	COLOR: #7D3C98; 
+	FONT-FAMILY: "COMIC SANS MS";
+	TEXT-SHADOW: 0PX 1PX 0PX #A9A9A9, 0PX 2PX 0PX #A4A4A4, 0PX 3PX 0PX #A1A1A1, 0PX 4PX 0PX #999999, 0PX 5PX 0PX #949494;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	
+  }
+
+a:visited{
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D5D8DC;
+	background-color: transparent;
+	text-decoration: underline;
+}
+footer{
+	BACKGROUND-COLOR:#4A235A;
+	COLOR:#D5D8DC;
+	padding: 2%;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: -50px;
+	margin-right: -50px;
+}
