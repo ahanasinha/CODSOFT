@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+<center>
+    <h1>CALCULATOR</h1>
+    <form action="" name="Calculator">
+    <p id="space">
+        <input type="text" name="show" id="show" disabled>
+    </p>
+    <input type="button" id="op" class="button" value="Add" onclick="displaynum('+')">
+    <input type="button" id="op" class="button" value="Substract" onclick="displaynum('-')">
+    <input type="button" id="op" class="button" value="Multiply" onclick="displaynum('*')">
+    <input type="button" id="op" class="button" value="Divide" onclick="displaynum('/')"><br><br>
+    <input type="button" id="val" value="1" class="num" onclick="displaynum('1')">
+    <input type="button" id="val" value="2" class="num" onclick="displaynum('2')">
+    <input type="button" id="val" value="3" class="num" onclick="displaynum('3')"><br><br>
+    <input type="button" id="val" value="4" class="num" onclick="displaynum('4')">
+    <input type="button" id="val" value="5" class="num" onclick="displaynum('5')">
+    <input type="button" id="val" value="6" class="num" onclick="displaynum('6')"><br><br>
+    <input type="button" id="val" value="7" class="num" onclick="displaynum('7')">
+    <input type="button" id="val" value="8" class="num" onclick="displaynum('8')">
+    <input type="button" id="val" value="9" class="num" onclick="displaynum('9')"><br><br>
+    <input type="button" id="submit" value="SUBMIT" class="submit" onclick="show.value=eval(show.value)">
+    <input type="button" id="val" value="0" class="num" onclick="displaynum('0')">
+    <input type="button" id="clear" value="CLEAR" class="clear" onclick="location.reload()">
+    </form>
+</center>
+</body>
+<script>
+    function displaynum(n1){
+        Calculator.show.value=Calculator.show.value+n1;
+    }
+</script>
+</html>
